@@ -1,0 +1,171 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+   
+  
+  color: #fff;
+}
+
+p {
+  margin: 0;
+  
+}
+.section p{
+  font-size: 2rem;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+aside {
+  flex: 30px;
+  background-image:  url("../assets/img/BG\ 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+}
+
+.aside img {
+  width: 400px;
+  height: 400px;
+}
+
+section {
+  flex: 70%;
+  background-image: url("../assets/img/Mesa\ de\ trabajo\ 1\ copia\ 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+  padding-bottom: 25rem;
+ 
+}
+
+.section{
+ text-align: center;
+ padding-top: 8rem;
+}
+section p b{
+  color: #000;
+  font-weight: 800;
+ 
+}
+.redes__sociales {
+  display: flex;
+  justify-content: end;
+}
+.redes__sociales a{
+  color: #000;
+}
+.redes__sociales i{
+  font-size: 25px;
+}
+.fa {
+  font-size: 20px;
+  padding: 10px;
+}
+
+.fa-facebook {
+  color: #000;
+}
+
+.fa-youtube {
+  color: #000;
+}
+
+.fa-instagram {
+  color: #000;
+}
+
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #2B4C9A;
+}
+
+.footer p {
+  color: #fff;
+  
+}
+.footer .fa-facebook {
+  color: #fff;
+  font-size: 25px;
+ 
+}
+.footer .fa-youtube {
+  color:#fff;
+  font-size: 25px;
+  
+}
+
+.footer .fa-instagram {
+  color: #fff;
+  font-size: 25px;
+  
+}
+
+@media (max-width: 700px) {
+  /* .row {
+    flex-direction: column;
+  } */
+  section h2 b {
+    font-size: 1.2rem;
+  }
+
+  .section  .logoG{
+    width: 310px;
+    height: 200px;
+  }
+  
+
+ 
+  
+  .redes__sociales{
+    display: none;
+  }
+
+}
+
+@media (max-width: 430px) {
+  p{
+    font-size: 1rem;
+  }
+  .aside img {
+    width: 307px;
+    height: 306px;
+  }
+
+  section h2 b {
+    font-size: .9rem;
+  }
+
+  
+  
+  .redes__sociales{
+    display: none;
+  }
+  .footer h4{
+    font-size: .7rem;
+  }
+}
